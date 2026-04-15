@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* TOOTH BASE POSITION */
+.tooth {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 60px;
+  transform: translateX(-50%);
+}
+
+/* ANIMATION CLASS */
+.tooth.drop {
+  animation: drop 1.5s ease-out forwards;
+}
+
+/* KEYFRAMES */
+@keyframes drop {
+  0% {
+    transform: translateX(-50%) translateY(-200px);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translateX(-50%) translateY(35vh);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(35vh);
+    opacity: 1;
+  }
+}
