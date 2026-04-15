@@ -85,7 +85,7 @@ export default function DoctorsPage() {
 
           <button
             onClick={() => setOpen(true)}
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-lg shadow-sm transition"
+            className="bg-sky-800 hover:bg-sky-700 text-white px-5 py-2 rounded-lg shadow-sm transition"
           >
             + Add Doctor
           </button>
@@ -103,7 +103,7 @@ export default function DoctorsPage() {
               {/* LEFT */}
               <div className="flex items-center gap-4">
 
-                <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center font-semibold text-emerald-700">
+                <div className="w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center font-semibold text-sky-700">
                   {d.name?.charAt(0)}
                 </div>
 
@@ -219,7 +219,7 @@ export default function DoctorsPage() {
 
               <button
                 onClick={addDoctor}
-                className="bg-emerald-600 hover:bg-emerald-700 text-white w-full py-2 rounded-lg"
+                className="bg-sky-800 hover:bg-sky-700 text-white w-full py-2 rounded-lg"
               >
                 Save
               </button>

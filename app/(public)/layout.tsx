@@ -24,7 +24,7 @@ export default function PublicLayout({
 
   if (stage < 3) {
     return (
-      <div className="fixed inset-0 bg-emerald-900 text-white overflow-hidden z-50 flex flex-col items-center justify-center">
+      <div className="fixed inset-0 bg-sky-900 text-white overflow-hidden z-50 flex flex-col items-center justify-center">
 
         {/* TEXT */}
         <div
@@ -33,22 +33,20 @@ export default function PublicLayout({
           }`}
         >
         <h1 className="text-3xl sm:text-5xl font-bold tracking-wider leading-tight text-center">
-  <span className="text-emerald-300 font-black italic drop-shadow-md">
-    O
+  <span className="text-sky-300 font-black italic drop-shadow-md">
+    D
   </span>
-  <span className="font-medium">live</span>
+  <span className="font-medium">ivyakarunyam</span>
 
   {/* line break only on mobile */}
   <br className="sm:hidden" />
 
-  <span className="text-white sm:ml-2">
-    Dental Home
-  </span>
+  <p className="text-red-800 sm:ml-2">
+    Dental Clinic
+  </p>
 </h1>
 
-          <p className="text-emerald-200 mt-2 text-sm sm:text-base">
-            Healthy Smile, Better Life
-          </p>
+         
         </div>
 
         {/* TOOTH */}

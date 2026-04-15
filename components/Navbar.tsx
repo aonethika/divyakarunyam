@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-emerald-700 text-white shadow-md">
+    <nav className="sticky top-0 z-50 bg-sky-800 text-white shadow-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
 
         {/* Left: Logo + Menu button */}
@@ -23,24 +23,24 @@ export default function Navbar() {
          
         <Link
         href="/"
-        className="text-lg font-medium tracking-wide transition hover:text-emerald-500"
+        className="text-lg font-medium tracking-wide transition hover:text-sky-200"
         >
-        <span className="text-emerald-500 font-bold">O</span>live Dental
+        <span className="text-sky-300 font-bold">D</span>live Dental
       </Link>
         </div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">
-          <Link href="/" className="hover:text-emerald-200 transition">
+          <Link href="/" className="hover:text-sky-200 transition">
             Home
           </Link>
-          <Link href="/services" className="hover:text-emerald-200 transition">
+          <Link href="/services" className="hover:text-sky-200 transition">
             Services
           </Link>
-          <Link href="/book" className="hover:text-emerald-200 transition">
+          <Link href="/book" className="hover:text-sky-200 transition">
             Book
           </Link>
-          <Link href="/contact" className="hover:text-emerald-200 transition">
+          <Link href="/contact" className="hover:text-sky-200 transition">
             Contact
           </Link>
         </div>

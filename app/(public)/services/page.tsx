@@ -5,7 +5,7 @@ export default function Services() {
     <main>
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-3">
         
-        <h1 className="text-3xl sm:text-5xl font-semibold text-emerald-950 text-center mb-4">
+        <h1 className="text-3xl sm:text-5xl font-semibold text-sky-950 text-center mb-4">
           Our Dental Services
         </h1>
 
@@ -57,7 +57,7 @@ export default function Services() {
         <div className="text-center mt-8">
           <Link
             href="/book"
-            className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg transition"
+            className="inline-block bg-sky-800 hover:bg-sky-700 text-white px-6 py-3 rounded-lg transition"
           >
             Book Appointment
           </Link>

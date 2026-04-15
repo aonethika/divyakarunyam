@@ -75,13 +75,13 @@ export default function AdminLogin() {
   };
 
   return (
-   <main className="min-h-screen flex items-start justify-center pt-20 bg-gradient-to-br from-emerald-50 via-white to-gray-100 px-4">
+   <main className="min-h-screen flex items-start justify-center pt-20 bg-gradient-to-br from-sky-200 via-white to-gray-100 px-4">
       <form
         onSubmit={handleLogin}
         className="w-full max-w-sm bg-white shadow-xl rounded-2xl p-8 space-y-5"
       >
         <input
-          className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+          className="w-full border  rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
           placeholder="Username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
@@ -89,7 +89,7 @@ export default function AdminLogin() {
 
         <input
           type="password"
-          className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+          className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
@@ -99,7 +99,7 @@ export default function AdminLogin() {
 
         <button
           disabled={loading}
-          className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:opacity-60 text-white py-3 rounded-lg flex items-center justify-center gap-2"
+          className="w-full bg-sky-600 hover:bg-sky-700 disabled:opacity-60 text-white py-3 rounded-lg flex items-center justify-center gap-2"
         >
           {loading ? (
             <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -113,7 +113,7 @@ export default function AdminLogin() {
             setOpen(true);
             setForgotMsg("");
           }}
-          className="text-sm text-center text-emerald-600 cursor-pointer hover:underline"
+          className="text-sm text-center text-sky-600 cursor-pointer hover:underline"
         >
           Forgot password?
         </p>
@@ -123,7 +123,7 @@ export default function AdminLogin() {
         <div className="fixed inset-0 bg-black/50 flex items-center  justify-center px-4">
           <div className="w-full max-w-sm bg-white rounded-2xl p-6 space-y-4 shadow-2xl">
             <input
-              className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
               placeholder="Enter email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -144,7 +144,7 @@ export default function AdminLogin() {
             <button
               onClick={handleForgot}
               disabled={forgotLoading}
-              className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:opacity-60 text-white py-2 rounded-lg flex items-center justify-center gap-2"
+              className="w-full bg-sky-600 hover:bg-sky-700 disabled:opacity-60 text-white py-2 rounded-lg flex items-center justify-center gap-2"
             >
               {forgotLoading ? (
                 <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />

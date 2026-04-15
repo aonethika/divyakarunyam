@@ -108,14 +108,14 @@ export default function BookingsPage() {
   }, [bookings, selectedDate, search]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 mt-0 via-white to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 mt-0 via-white to-sky-100">
       <div className="max-w-6xl mx-auto px-4 py-2 space-y-6">
 
         <div className="bg-white rounded-2xl shadow-sm p-4 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
 
           <button
             onClick={() => setOpen(true)}
-            className="bg-emerald-600 hover:bg-emerald-700 active:scale-95 transition text-white px-5 py-2 rounded-xl font-medium shadow-sm"
+            className="bg-sky-800 hover:bg-sky-700 active:scale-95 transition text-white px-5 py-2 rounded-xl font-medium shadow-sm"
           >
             + New Booking
           </button>
@@ -156,7 +156,7 @@ export default function BookingsPage() {
 
                 <div className="flex gap-4 items-center">
 
-                  <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-semibold text-lg">
+                  <div className="w-12 h-12 rounded-full bg-sky-100 flex items-center justify-center text-sky-700 font-semibold text-lg">
                     {b.patientName?.charAt(0)}
                   </div>
 
@@ -173,7 +173,7 @@ export default function BookingsPage() {
                       {b.date} • {b.time}
                     </div>
 
-                    <div className="text-xs text-emerald-600 mt-1 font-medium">
+                    <div className="text-xs text-sky-600 mt-1 font-medium">
                       Dr. {b.doctor?.name || "Not assigned"}
                     </div>
                   </div>

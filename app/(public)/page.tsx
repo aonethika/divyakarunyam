@@ -8,13 +8,13 @@ export default function Home() {
     <main>
       <ScrollReveal>
         <section className="max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28 text-center">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold text-emerald-950 mb-0 sm:mb-2 tracking-tight">
-            <span className="text-emerald-500 font-black italic drop-shadow-md">
-                    O
-            </span>live Dental Home
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold text-sky-950 mb-0 sm:mb-2 tracking-tight">
+            <span className="text-sky-300 font-black italic drop-shadow-md">
+                    D
+            </span>ivyakarunyam
           </h1>
 
-          <p className="text-base sm:text-lg text-emerald-600 mb-3">
+          <p className="text-base sm:text-lg text-sky-300 mb-3">
             Healthy Smile, Better Life
           </p>
 
@@ -26,14 +26,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
             <Link
               href="/book"
-              className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg transition w-full sm:w-auto"
+              className="bg-sky-800 hover:bg-sky-700 text-white px-6 py-3 rounded-lg transition w-full sm:w-auto"
             >
               Book Appointment
             </Link>
 
             <Link
               href="/services"
-              className="border border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-6 py-3 rounded-lg transition w-full sm:w-auto"
+              className="border border-sky-800 text-sky-600 hover:bg-sky-100 px-6 py-3 rounded-lg transition w-full sm:w-auto"
             >
               View Services
             </Link>

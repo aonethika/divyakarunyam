@@ -49,7 +49,7 @@ function Inner() {
         <button
           onClick={handleReset}
           disabled={loading}
-          className="w-full bg-emerald-600 text-white p-3 rounded"
+          className="w-full bg-reset-600 text-white p-3 rounded"
         >
           {loading ? "Updating..." : "Reset Password"}
         </button>

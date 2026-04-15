@@ -21,15 +21,15 @@ export default function Contact() {
 
           <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-lg transition border border-gray-100 flex flex-col items-center text-center">
 
-            <div className="w-14 h-14 rounded-full bg-emerald-100 flex items-center justify-center mb-4">
-              <Phone className="text-emerald-700" />
+            <div className="w-14 h-14 rounded-full bg-sky-100 flex items-center justify-center mb-4">
+              <Phone className="text-sky-700" />
             </div>
 
             <p className="text-gray-500 text-sm">Call Now</p>
 
             <a
               href={`tel:${phone}`}
-              className="text-2xl font-bold text-emerald-700 mt-2 hover:scale-105 transition"
+              className="text-2xl font-bold text-sky-700 mt-2 hover:scale-105 transition"
             >
               {phone}
             </a>
@@ -42,8 +42,8 @@ export default function Contact() {
 
           <div className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-lg transition border border-gray-100 flex flex-col items-center text-center">
 
-            <div className="w-14 h-14 rounded-full bg-emerald-100 flex items-center justify-center mb-4">
-              <MapPin className="text-emerald-700" />
+            <div className="w-14 h-14 rounded-full bg-sky-100 flex items-center justify-center mb-4">
+              <MapPin className="text-ky-700" />
             </div>
 
             <p className="text-gray-500 text-sm">Visit Us</p>
@@ -55,7 +55,7 @@ export default function Contact() {
             <a
               href="https://maps.app.goo.gl/oQkjYomV1txzUzEy9"
               target="_blank"
-              className="text-emerald-700 font-semibold mt-2 hover:underline"
+              className="text-sky-700 font-semibold mt-2 hover:underline"
             >
               Open in Google Maps →
             </a>
@@ -64,19 +64,19 @@ export default function Contact() {
 
         </div>
 
-        <div className="mt-10 bg-emerald-700 rounded-2xl p-8 text-center text-white shadow-md">
+        <div className="mt-10 bg-sky-700 rounded-2xl p-8 text-center text-white shadow-md">
 
           <h2 className="text-2xl font-bold mb-2">
             Need Immediate Appointment?
           </h2>
 
-          <p className="text-emerald-100 text-sm mb-5">
+          <p className="text-sky-100 text-sm mb-5">
             Click below to book your visit in seconds
           </p>
 
           <Link
             href="/book"
-            className="inline-flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
+            className="inline-flex items-center gap-2 bg-white text-sky-700 px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
           >
             <CalendarCheck size={18} />
             Book Appointment

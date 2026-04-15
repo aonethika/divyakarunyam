@@ -16,14 +16,14 @@ if (
   const linkClass = (path: string) =>
     `px-4 py-2 rounded-md transition text-sm font-medium ${
       pathname === path
-        ? "bg-white text-emerald-700 shadow-sm"
-        : "text-white/90 hover:bg-emerald-600"
+        ? "bg-white text-sky-700 shadow-sm"
+        : "text-white/90 hover:bg-sky-600"
     }`;
 
     
 
   return (
-    <nav className="w-full bg-emerald-700 text-white sticky top-0 z-50 shadow-md">
+    <nav className="w-full bg-sky-800 text-white sticky top-0 z-50 shadow-md">
       <div className="max-w-6xl mx-auto flex justify-between px-6 py-4">
 
         {/* LEFT */}
